@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: rgb(232, 232, 40);
+    padding: 20px;
+    padding-left: 150px;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav h1{
+    font-family: 'Caprasimo', cursive;
+    color: rgb(35, 35, 254);
+    font-size: 35px;
+    margin-right: 20px;
+}
+nav input {
+    height: 20px;
+    border: 2px solid white;
+    margin-top: 8px;
+}
+nav button {
+    height: 25px;
+    border: 2px solid white;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.titulo-nav{
+    display: flex;
+
+}
+
+.publicidad{
+    color: purple;
+    font-size: 30px;
+}
+
+.subtitulo-nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.subtitulo-nav p{
+    margin-right: 20px;
+}
+.subtitulo-nav p:hover{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(35, 35, 254);
+    color: rgb(238, 238, 90);
+}
+
+footer p {
+    font-family: 'Fasthand', cursive;
+    margin-right: 20px ;
+}
